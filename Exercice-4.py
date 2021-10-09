@@ -1,4 +1,5 @@
 class Domino:
+    """Classe Domino. arguments : face1, face2"""
     def __init__(self, A:int, B:int) -> None:
         self.face1 = A
         self.face2 = B
@@ -8,7 +9,3 @@ class Domino:
 
     def total(self) -> int:
         return self.face1+self.face2
-
-domino = Domino(4,6)
-domino.affichePoints()
-domino.total()
