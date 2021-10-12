@@ -5,7 +5,9 @@ class Domino:
         self.face2 = B
     
     def affichePoints(self):
-        return f"face A = {self.face1} & face B = {self.face2}"
-
+        """affiche les faces du domino"""
+        print(f"face A = {self.face1} & face B = {self.face2}")
+    
     def total(self) -> int:
+        """renvoie la somme des 2 faces"""
         return self.face1+self.face2

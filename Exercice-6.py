@@ -1,6 +1,6 @@
 class Rectangle:
     """définit un rectangle avec les arguments longueur et largeur"""    
-    def __init__(self, longueur, largeur) -> None:
+    def __init__(self, longueur:float, largeur:float) -> None:
         self.longueur = longueur
         self.largeur = largeur
 
